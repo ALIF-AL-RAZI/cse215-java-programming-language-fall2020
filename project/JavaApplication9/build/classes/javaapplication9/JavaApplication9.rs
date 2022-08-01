@@ -1,0 +1,3 @@
+GeometricObject
+Rectangle
+Triangle

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="telecom">
+  <ClassDiagramComponents>
+    <Class name="Airtel" package="telecom" visibility="public" xPosition="1260.0" yPosition="216.0">
+      <Fields>
+        <Field name="list" type="String[]" visibility="public"/>
+        <Field name="list2" type="String[]" visibility="public"/>
+        <Field name="list4" type="String[]" visibility="public"/>
+        <Field name="list5" type="String[]" visibility="public"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="detailed"/>
+          <Argument type="int" name="balance"/>
+          <Argument type="String[]" name="internet_Packages"/>
+          <Argument type="String[]" name="social_Package"/>
+          <Argument type="double" name="emergency_Loan"/>
+          <Argument type="String[]" name="my_Offers"/>
+          <Argument type="String[]" name="fnf_offers"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="offer" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Banglalink" package="telecom" visibility="public" xPosition="1260.0" yPosition="473.0">
+      <Fields>
+        <Field name="list" type="String[]" visibility="public"/>
+        <Field name="list2" type="String[]" visibility="public"/>
+        <Field name="list4" type="String[]" visibility="public"/>
+        <Field name="list5" type="String[]" visibility="public"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String[]" name="list"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="String" name="detailed"/>
+          <Argument type="int" name="balance"/>
+          <Argument type="String[]" name="internet_Packages"/>
+          <Argument type="String[]" name="social_Package"/>
+          <Argument type="double" name="emergency_Loan"/>
+          <Argument type="String[]" name="my_Offers"/>
+          <Argument type="String[]" name="fnf_offers"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="offer" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Main" package="telecom" visibility="public" xPosition="384.0" yPosition="216.0">
+      <Fields>
+        <Field name="number" type="String" visibility="public"/>
+        <Field name="Detailed" type="String" visibility="public"/>
+        <Field name="Balance" type="double" visibility="public"/>
+        <Field name="Internet_Packages" type="String[]" visibility="public"/>
+        <Field name="Social_Package" type="String[]" visibility="public"/>
+        <Field name="Emergency_Loan" type="double" visibility="public"/>
+        <Field name="My_Offers" type="String[]" visibility="public"/>
+        <Field name="FNF_Offers" type="String[]" visibility="public"/>
+        <Field name="info" type="String[]" visibility="public"/>
+        <Field name="BackInfo" type="String" visibility="public"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String[]" name="list"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="String" name="detailed"/>
+          <Argument type="int" name="balance"/>
+          <Argument type="String[]" name="internet_Packages"/>
+          <Argument type="String[]" name="social_Package"/>
+          <Argument type="double" name="emergency_Loan"/>
+          <Argument type="String[]" name="my_Offers"/>
+          <Argument type="String[]" name="fnf_offers"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getDetailed" returnType="String" visibility="public"/>
+        <Method name="setDetailed" returnType="void" visibility="public">
+          <Argument type="String" name="detailed"/>
+        </Method>
+        <Method name="getBalance" returnType="double" visibility="public"/>
+        <Method name="setBalance" returnType="void" visibility="public">
+          <Argument type="int" name="balance"/>
+        </Method>
+        <Method name="getInternet_Packages" returnType="String[]" visibility="public"/>
+        <Method name="setInternet_Packages" returnType="void" visibility="public">
+          <Argument type="String[]" name="internet_Packages"/>
+        </Method>
+        <Method name="getSocial_Package" returnType="String[]" visibility="public"/>
+        <Method name="setSocial_Package" returnType="void" visibility="public">
+          <Argument type="String[]" name="social_Package"/>
+        </Method>
+        <Method name="getNumber" returnType="String" visibility="public"/>
+        <Method name="setNumber" returnType="void" visibility="public">
+          <Argument type="String" name="number"/>
+        </Method>
+        <Method name="getEmergency_Loan" returnType="double" visibility="public"/>
+        <Method name="setEmergency_Loan" returnType="void" visibility="public">
+          <Argument type="double" name="emergency_Loan"/>
+        </Method>
+        <Method name="getMy_Offers" returnType="String[]" visibility="public"/>
+        <Method name="setMy_Offers" returnType="void" visibility="public">
+          <Argument type="String[]" name="my_Offers"/>
+        </Method>
+        <Method name="getInfo" returnType="String[]" visibility="public"/>
+        <Method name="setInfo" returnType="void" visibility="public">
+          <Argument type="String[]" name="info"/>
+        </Method>
+        <Method name="add" returnType="double" visibility="public">
+          <Argument type="double" name="num"/>
+        </Method>
+        <Method name="remove" returnType="double" visibility="public">
+          <Argument type="double" name="num"/>
+        </Method>
+        <Method name="getBackInfo" returnType="String" visibility="public"/>
+        <Method name="setBackInfo" returnType="void" visibility="public">
+          <Argument type="String" name="backInfo"/>
+        </Method>
+        <Method name="getFNF_Offers" returnType="String[]" visibility="public"/>
+        <Method name="setFNF_Offers" returnType="void" visibility="public">
+          <Argument type="String[]" name="fNF_Offers"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Robi" package="telecom" visibility="public" xPosition="1260.0" yPosition="729.0">
+      <Fields>
+        <Field name="list" type="String[]" visibility="public"/>
+        <Field name="list2" type="String[]" visibility="public"/>
+        <Field name="list4" type="String[]" visibility="public"/>
+        <Field name="list5" type="String[]" visibility="public"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String[]" name="list"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="String" name="detailed"/>
+          <Argument type="int" name="balance"/>
+          <Argument type="String[]" name="internet_Packages"/>
+          <Argument type="String[]" name="social_Package"/>
+          <Argument type="double" name="emergency_Loan"/>
+          <Argument type="String[]" name="my_Offers"/>
+          <Argument type="String[]" name="fnf_offers"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Telecom" package="telecom" visibility="public" xPosition="709.0" yPosition="53.0">
+      <Fields>
+        <Field name="txt" type="String" visibility="public" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Interface name="data" package="telecom" visibility="public" xPosition="2394.0" yPosition="400.0">
+      <Methods>
+        <Method name="offer" returnType="String" visibility="public"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="telecom.Airtel" target="telecom.Main"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="telecom.Banglalink" target="telecom.data"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="telecom.Airtel" target="telecom.data"/>
+    <IsRelation name="is" source="telecom.Robi" target="telecom.Main"/>
+    <IsRelation name="is" source="telecom.Banglalink" target="telecom.Main"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
